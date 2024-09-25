@@ -1,27 +1,30 @@
-div{
+h1 {
+    text-align: center;
+    padding: 30px;
     background-color: #A8D1D1;
-    padding :1rem;
+}
+.playlist {
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: #FD8A8A;
+}
+.container {
+    position: relative;
+}
+.container:hover {
+    transform: scale(1.02);
+    font-weight: bold;
 }
 
-.song {
-    background-color: #FD848A;
-    margin: 16px;
+a {
+    color: white;
+}
+
+.song-title {
+    position: absolute;
+    width: 568px;
+    bottom: 5px;
     padding: 16px;
-}
-
-li{
-    list-style-type: dot;
-}
-
-#item5 {
-    font-weight: bold;
-}
-
-li:nth-child(even) {
-    font-weight: bold;
-}
-
-ul div:hover{
-    background-color: #F1F785;
-    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
 }
