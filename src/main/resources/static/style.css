@@ -1,13 +1,27 @@
-ul div,h1{
+div{
     background-color: #A8D1D1;
+    padding :1rem;
 }
 
-div {
-    background-color: orange;
+.song {
+    background-color: #FD848A;
     margin: 16px;
     padding: 16px;
 }
 
 li{
     list-style-type: dot;
+}
+
+#item5 {
+    font-weight: bold;
+}
+
+li:nth-child(even) {
+    font-weight: bold;
+}
+
+ul div:hover{
+    background-color: #F1F785;
+    font-size: 1.1rem;
 }
